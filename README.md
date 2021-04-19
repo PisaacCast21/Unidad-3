@@ -74,10 +74,5 @@ se esta iniciando la instalacion de la APK en nuestro celular
 
 // class MyHomePage extends StatefulWidget { // MyHomePage({Key key, this.title}) : super(key: key); // final String title; // // @override // _MyHomePageState createState() => _MyHomePageState(); // } // // class _MyHomePageState extends State { // int _currentStep = 0; // BluetoothDevice device; // // void onStepContinue() async { // if (_currentStep == 0) { // setState(() { // _currentStep = 1; // }); // } // } // // void onStepCancel() { // if (_currentStep == 1) { // setState(() { // _currentStep = 0; // }); // } // } // // @override // Widget build(BuildContext context) { // List _steps = [ // Step( // title: Text('Connection'), // content: Container( // height: 500, // child: SelectBondedDevicePage( // onCahtPage: (BluetoothDevice device) { // Navigator.push( // context, // MaterialPageRoute( // builder: (context) { // return ChatPage(server: device); // }, // ), // ); // }, // ), // ), // state: StepState.editing, // isActive: true, // ), // Step( // title: Text('Led'), // content: Container( // // child: onCahtPage, // ), // ), // ]; // return Scaffold( // appBar: AppBar( // title: Text(widget.title), // ), // body: Stepper( // steps: _steps, // type: StepperType.horizontal, // currentStep: _currentStep, // onStepContinue: onStepContinue, // onStepCancel: onStepCancel, // ), // floatingActionButton: FloatingActionButton( // onPressed: () { // // // }, // tooltip: 'Increment', // child: Icon(Icons.search), // ), // This trailing comma makes auto-formatting nicer for build methods. // ); // } // }
 
-![image](https://user-images.githubusercontent.com/79875834/115075555-dd618f80-9ec0-11eb-81f2-87fefd1e580f.png)
-
-
-
-
 
 
